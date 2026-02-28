@@ -29,7 +29,7 @@
 			Selam Bebeğim,<br />
 			Tanıştığımız ilk günü hatırlıyor musun?<br />
 			<span class="comments">// "Selam Furkan." </span><br />
-			O gün, sonsuza dek sürecen bir hikayenin başlangıcıymış.<br />
+			O gün, sonsuza dek sürecek bir hikayenin başlangıcıymış.<br />
 			<span class="comments">// Ama ne sen, ne de ben bilmiyormuşuz.</span><br />
 			Daha sonra 4 Kasım,<br />
 			Nereden bilebilirdik?<br />
@@ -61,11 +61,11 @@
 			<canvas id="garden"></canvas>
 			<div id="words">
 				<div id="messages">
-					Doğum günün kutlu olsun bebeğim
+					Doğum günün kutlu olsun bebeğim <3<br />
+					Sonsuza dek,<br />
 					<div id="elapseClock"></div>
 				</div>
 				<div id="loveu">
-					Yukarıdaki da benim doğum günüm ^<br />
 					Seni çok seviyorum<br/>
 					<div class="signature">- Furkan</div>
 				</div>
@@ -96,12 +96,12 @@ if (!document.createElement('canvas').getContext) {
 } else {
 	setTimeout(function () {
 		startHeartAnimation();
-	}, 25000);
+	}, 40000);
 
 	timeElapse(together);
 	setInterval(function () {
 		timeElapse(together);
-	}, 500);
+	}, 1000);
 
 	adjustCodePosition();
 	$("#code").typewriter();
